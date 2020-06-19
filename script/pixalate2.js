@@ -38,6 +38,7 @@ btnPixelate.addEventListener('click', function () {
         canvas.classList.add("sample")
 
         const context = canvas.getContext('2d')
+        context.translate(0.5, 0.5);
         context.drawImage(imgUp, 0, 0, imgwidth, imgheight)
         let imageData;
         let data;

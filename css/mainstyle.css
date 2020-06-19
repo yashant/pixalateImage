@@ -21,6 +21,12 @@ html {
     text-align: center;
     letter-spacing: 0.1em;
 }
+.title-link{
+    text-decoration: none;
+}
+.title-link:visited{
+    color:inherit;
+}
 .input-file {
     display: none;
 }
@@ -35,7 +41,7 @@ html {
     opacity: 1;
     transform: scale(1.1);
 }
-
+a
 .file{
     cursor: pointer;
     opacity: 0.8;
@@ -45,7 +51,6 @@ html {
 .file:hover{
     opacity: 1;
     transform: scale(1.5);
-
 }
 
 .upload-icon{
